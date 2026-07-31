@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Game Arcade — School Project
 
 A small React site with a portfolio-style layout (Home / About / Skills) plus
@@ -52,3 +53,7 @@ bishops, rooks, queens, kings), turn order, captures, a check indicator, and
 auto-promotes pawns to queens. Castling, en passant, and full
 checkmate/stalemate detection are intentionally left out to keep the scope
 reasonable for a school project.
+=======
+# react-project
+react project
+>>>>>>> f0282b2f6f962f89108ff2b210b36c1cac39ebeb
