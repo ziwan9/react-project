@@ -1,0 +1,40 @@
+:root {
+  --bg: #0f1115;
+  --panel: #181b22;
+  --panel-alt: #1f232c;
+  --line: #2b303b;
+  --text: #e8eaf0;
+  --text-muted: #8a90a2;
+  --cyan: #4ee1b8;
+  --cyan-dim: #245a4c;
+  --amber: #f5a623;
+  --amber-dim: #5c3f10;
+  --red: #e2564f;
+
+  --font-display: "Courier New", ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+button {
+  font-family: inherit;
+}
+
+code {
+  font-family: var(--font-display);
+}

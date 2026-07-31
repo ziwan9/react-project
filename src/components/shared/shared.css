@@ -1,0 +1,77 @@
+.game-header {
+  margin-bottom: 20px;
+}
+
+.game-header-title {
+  font-family: var(--font-display);
+  font-size: 24px;
+  color: var(--text);
+  margin: 0 0 6px;
+}
+
+.game-header-subtitle {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.score-chip {
+  background: var(--panel-alt);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 14px;
+  min-width: 90px;
+}
+
+.score-chip--accent {
+  border-color: var(--cyan);
+}
+
+.score-chip-label {
+  font-family: var(--font-body);
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 2px;
+}
+
+.score-chip-value {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.score-chip--accent .score-chip-value {
+  color: var(--cyan);
+}
+
+.score-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.btn-primary {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--cyan);
+  background: var(--cyan-dim);
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.btn-ghost {
+  font-family: var(--font-body);
+  font-size: 13px;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+}

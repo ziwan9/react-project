@@ -1,0 +1,48 @@
+.ttt-status {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+
+.ttt-status--win {
+  color: var(--cyan);
+}
+
+.ttt-board {
+  display: grid;
+  grid-template-columns: repeat(3, 88px);
+  grid-template-rows: repeat(3, 88px);
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.ttt-square {
+  font-family: var(--font-display);
+  font-size: 36px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--panel-alt);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.ttt-square--x {
+  color: var(--cyan);
+}
+
+.ttt-square--o {
+  color: var(--amber);
+}
+
+.ttt-square--win {
+  border-color: var(--cyan);
+  background: var(--cyan-dim);
+}
+
+.ttt-actions {
+  display: flex;
+  gap: 10px;
+}

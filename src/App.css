@@ -1,0 +1,13 @@
+.app-shell {
+  background: var(--bg);
+  min-height: 100vh;
+  color: var(--text);
+}
+
+.eyebrow {
+  font-family: var(--font-display);
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: var(--amber);
+  margin-bottom: 10px;
+}

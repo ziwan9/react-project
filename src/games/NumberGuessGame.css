@@ -1,0 +1,75 @@
+.guess-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.guess-input {
+  flex: 1;
+  max-width: 220px;
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--panel-alt);
+  color: var(--text);
+  outline: none;
+}
+
+.guess-won-banner {
+  margin-bottom: 24px;
+  padding: 18px 20px;
+  border-radius: 10px;
+  background: var(--cyan-dim);
+  border: 1px solid var(--cyan);
+}
+
+.guess-won-text {
+  font-family: var(--font-body);
+  color: var(--text);
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.guess-restart-link {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.guess-history-label {
+  font-family: var(--font-display);
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.guess-history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.guess-history-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-body);
+  font-size: 14px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  background: var(--panel-alt);
+  color: var(--text-muted);
+}
+
+.guess-history-row--win {
+  color: var(--cyan);
+}
