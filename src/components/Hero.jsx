@@ -17,7 +17,7 @@ export default function Hero({ onNavigate }) {
         <span className="hero-title-accent">Pick a Game.</span>
       </h1>
       <p className="hero-subtitle">
-        A tiny arcade built from scratch in React — a number-guessing game,
+        A tri-ame built from scratch in React — a number-guessing game,
         tic-tac-toe, and a playable chess board, each wired up as its own
         component.
       </p>
