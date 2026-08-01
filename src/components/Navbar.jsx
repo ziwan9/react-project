@@ -4,7 +4,6 @@ import "./Navbar.css";
 const LINKS = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
-  { id: "skills", label: "Skills" },
   { id: "arcade", label: "Games" },
 ];
 
