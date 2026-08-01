@@ -10,10 +10,8 @@ const CARDS = [
 export default function Hero({ onNavigate }) {
   return (
     <section className="hero">
-      <div className="hero-eyebrow">SCHOOL PROJECT // REACT</div>
+      <div className="hero-eyebrow">// REACT PROJECT //</div>
       <h1 className="hero-title">
-        Insert Coin.
-        <br />
         <span className="hero-title-accent">Pick a Game.</span>
       </h1>
       <p className="hero-subtitle">
@@ -22,7 +20,7 @@ export default function Hero({ onNavigate }) {
         component.
       </p>
       <button className="hero-cta" onClick={() => onNavigate("arcade")}>
-        ▶ START PLAYING
+        ▶ CLICK TO PLAY
       </button>
 
       <div className="hero-grid">

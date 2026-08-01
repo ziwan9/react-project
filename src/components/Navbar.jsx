@@ -11,7 +11,7 @@ const LINKS = [
 export default function Navbar({ active, onNavigate }) {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">&lt;PLAYER/1&gt;</div>
+      <div className="navbar-logo">&lt; WELCOME-PLAYER &gt;</div>
       <div className="navbar-links">
         {LINKS.map((l) => (
           <button
